@@ -10,7 +10,6 @@ public class RoomController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("trigger entered");
 
 
         if(other.tag == "Player")
